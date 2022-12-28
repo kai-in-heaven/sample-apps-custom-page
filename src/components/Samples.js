@@ -6,14 +6,12 @@ import { Col, Row } from "@zendeskgarden/react-grid";
 import { Well } from "@zendeskgarden/react-notifications";
 
 const Samples = ({ tag }) => {
-	console.log(tag);
-
-    // loops over data.json and returns app cards based on the tag
+	// loops over data.json and returns app cards based on the tag.
 	const apps = data.apps.map((app, i) => {
-		if (app.tags.includes(tag)) {
+		if (app.tags && app.tags.includes(tag)) {
 			return (
 				<>
-					<Col>
+					<Col size={4}>
 						<a className={styles.cardLink} rel="noreferrer" target="_blank" href={app.href}>
 							<Well style={{ minHeight: "150px" }}>
 								<h4 className={styles.cardHeader}>{app.name}</h4>
@@ -23,22 +21,12 @@ const Samples = ({ tag }) => {
 					</Col>
 
 					{i % 3 === 2 && <div style={{ width: "100%", marginTop: "24px" }} />}
-					{i === data.apps.length - 2 && (
-						<>
-							<Col></Col>
-							<Col></Col>
-						</>
-					)}  
 				</>
 			);
 		}
 	});
 
-	return (
-		<div className={styles.sampleWrapper}>
-			<Row>{apps}</Row>
-		</div>
-	);
+	return <Row>{apps}</Row>;
 };
 
 export default Samples;

@@ -1,0 +1,44 @@
+{
+	"tutorials": [
+		{
+			"name": "Zendesk app quick start",
+			"description": "In this 15-minute quick start, you'll use the Zendesk Apps framework to access ticket data.",
+			"href": "https://developer.zendesk.com/documentation/apps/getting-started/zendesk-app-quick-start/"
+		},
+		{
+			"name": "Building your first Support app",
+			"description": "The app will display the requester's name, any tags applied to the requester, when they were added and more",
+			"href": "https://developer.zendesk.com/documentation/apps/build-an-app/build-your-first-support-app/part-1-laying-the-groundwork/"
+		},
+		{
+			"name": "Building your first Sell app",
+			"description": "The “Related Leads” app displays new leads for an organization associated with a deal.",
+			"href": "https://developer.zendesk.com/documentation/apps/build-an-app/build-your-first-sell-app/building-your-first-sell-app-part-1-laying-the-groundwork/"
+		},
+		{
+			"name": "Building your first Chat app",
+			"description": "The app “Learn More” is designed to let a chat agent send a visitor links to more information about any subject.",
+			"href": "https://developer.zendesk.com/documentation/apps/build-an-app/build-your-first-chat-app/part-1-laying-the-groundwork/"
+		},
+		{
+			"name": "Building a server-side app",
+			"description": "Because a Zendesk app runs in an iframe, you can use a server-side web application to generate the content for the iframe.",
+			"href": "https://developer.zendesk.com/documentation/apps/build-an-app/building-a-server-side-app/part-1-core-concepts/"
+		},
+		{
+			"name": "Using React in a Support app",
+			"description": "In this tutorial, you'll use React to create a Zendesk Support app.",
+			"href": "https://developer.zendesk.com/documentation/apps/build-an-app/using-react-in-a-support-app/"
+		},
+		{
+			"name": "Adding third-party OAuth to a Support app",
+			"description": "In this tutorial, you'll create a private Zendesk Support app that uses an oauth setting to manage third-party OAuth access tokens.",
+			"href": "https://developer.zendesk.com/documentation/apps/build-an-app/adding-third-party-oauth-to-a-support-app/"
+		},
+		{
+			"name": "Dynamically changing app icons",
+			"description": "In this tutorial, you'll create a top bar app that changes its icon based on data from a third-party API.",
+			"href": "https://developer.zendesk.com/documentation/apps/build-an-app/dynamically-changing-app-icons/"
+		}
+	]
+}

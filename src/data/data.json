@@ -16,7 +16,7 @@
 			"name": "Getting and setting Metadata",
 			"description": "This app demonstrates usage of the client.metadata() method to retrieve installation metadata",
 			"href": "https://github.com/zendesk/metadata_call_demo_zaf_app",
-			"tags": ["all"]
+			"tags": ["all", "data-fetching", "metadata"]
 		},
 		{
 			"name": "Hide assignee field",
@@ -28,7 +28,7 @@
 			"name": "Test ZAF Network Request Behavior",
 			"description": "This app is a companion to the knowledge base article that describes the client.request method and its CORS option.",
 			"href": "https://github.com/zendesk/client_request_cors_demo_zaf_app",
-			"tags": ["all"]
+			"tags": ["all", "data-fetching"]
 		},
 		{
 			"name": "Test notifying an agent",
@@ -41,6 +41,12 @@
 			"description": "An example project showcasing the capabilities of the new custom pages feature in Zendesk Guide",
 			"href": "https://github.com/zendesk/custom-pages-example",
 			"tags": ["all"]
+		},
+		{
+			"name": "Custom Pages in Help Center",
+			"description": "An example project showcasing the capabilities of the new custom pages feature in Zendesk Guide",
+			"href": "https://github.com/zendesk/custom-pages-example"
+
 		}
 	]
 }
