@@ -19,8 +19,6 @@ const Samples = ({ tag }) => {
 							</Well>
 						</a>
 					</Col>
-
-					{/* {i % 3 === 2 && <div style={{ width: "100%", marginTop: "24px" }} />} */}
 				</>
 			);
 		}

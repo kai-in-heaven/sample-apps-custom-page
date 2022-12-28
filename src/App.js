@@ -3,7 +3,6 @@ import Samples from "./components/Samples";
 import Tutorials from "./components/Tutorials";
 
 import { Col, Row } from "@zendeskgarden/react-grid";
-import { Well } from "@zendeskgarden/react-notifications";
 import { Tabs, TabList, Tab, TabPanel } from "@zendeskgarden/react-tabs";
 
 import styles from "./Home.module.css";
@@ -16,7 +15,7 @@ function App() {
 			<div className={styles.heroContainer}>
 				<div className={styles.heroWrapper}>
 					<Row>
-						<Col>
+						<Col textAlignXs={"center"} textAlignSm={"start"} xs={12} md={6}>
 							<div className={styles.heroText}>
 								<h1 className={styles.header}>
 									Sample apps <br />
@@ -47,7 +46,6 @@ function App() {
 						<Tabs
 							selectedItem={selectedTab}
 							onChange={setSelectedTab}
-							className={styles.tabContainer}
 						>
 							<TabList className={styles.tabParent}>
 								<Tab item="all">All</Tab>
