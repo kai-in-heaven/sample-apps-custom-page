@@ -1,0 +1,46 @@
+{
+	"apps": [
+		{
+			"name": "Change Requester App",
+			"description": "This app demonstrates one use of ZAF's client.request method.",
+			"href": "https://github.com/zendesk/change_requester_demo_zaf_app",
+			"tags": ["all", "data-fetching"]
+		},
+		{
+			"name": "Test Activation Events",
+			"description": "This app demonstrates one use of ZAF's client.request method when an event is detected.",
+			"href": "https://github.com/zendesk/activation_events_demo_zaf_app",
+			"tags": ["all", "data-fetching"]
+		},
+		{
+			"name": "Getting and setting Metadata",
+			"description": "This app demonstrates usage of the client.metadata() method to retrieve installation metadata",
+			"href": "https://github.com/zendesk/metadata_call_demo_zaf_app",
+			"tags": ["all"]
+		},
+		{
+			"name": "Hide assignee field",
+			"description": "This app demonstrates one use of ZAF's client.request method.",
+			"href": "https://github.com/zendesk/hide_ticket_field_demo_zaf_app",
+			"tags": ["all", "data-fetching"]
+		},
+		{
+			"name": "Test ZAF Network Request Behavior",
+			"description": "This app is a companion to the knowledge base article that describes the client.request method and its CORS option.",
+			"href": "https://github.com/zendesk/client_request_cors_demo_zaf_app",
+			"tags": ["all"]
+		},
+		{
+			"name": "Test notifying an agent",
+			"description": "This app demonstrates one approach used to notify a specific agent that they have been assigned a ticket in Zendesk.",
+			"href": "https://github.com/zendesk/notifying-an-agent-demo-zaf-app",
+			"tags": ["all"]
+		},
+		{
+			"name": "Custom Pages in Help Center",
+			"description": "An example project showcasing the capabilities of the new custom pages feature in Zendesk Guide",
+			"href": "https://github.com/zendesk/custom-pages-example",
+			"tags": ["all"]
+		}
+	]
+}
