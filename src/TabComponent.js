@@ -7,9 +7,9 @@ const TabComponent = () => {
   return (
     <Tabs selectedItem={selectedTab} onChange={setSelectedTab}>
       <TabList>
-        <Tab item="tab-1">Elm</Tab>
-        <Tab item="tab-2">Sugar Maple</Tab>
-        <Tab item="tab-3">Dogwood</Tab>
+        <Tab item="tab-1">Current Users</Tab>
+        <Tab item="tab-2">Add New User</Tab>
+        <Tab item="tab-3">License Key</Tab>
       </TabList>
       <TabPanel item="tab-1">
         Elms are deciduous and semi-deciduous trees comprising the flowering plant genus Ulmus in
