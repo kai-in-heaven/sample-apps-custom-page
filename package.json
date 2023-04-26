@@ -12,7 +12,7 @@
     "@zendeskgarden/react-buttons": "^8.62.0",
     "@zendeskgarden/react-grid": "^8.62.0",
     "@zendeskgarden/react-notifications": "^8.62.0",
-    "@zendeskgarden/react-tabs": "^8.62.0",
+    "@zendeskgarden/react-tabs": "^8.64.0",
     "@zendeskgarden/react-theming": "^8.62.0",
     "babel-jest": "^27.4.2",
     "babel-loader": "^8.2.3",
