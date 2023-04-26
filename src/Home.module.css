@@ -10,7 +10,9 @@
 	padding-bottom: 32px;
 	width: 100%;
 	height: auto;
-	background-color: rgb(214, 238, 242);
+	background-color: #040531;
+	background-image: url("https://www.confluent.io/images/data-in-motion/hero-blue-violet-hero.svg");
+	background-size: cover;
 }
 
 .heroWrapper {
@@ -48,8 +50,8 @@
 }
 
 .header {
-	color: rgb(3, 54, 61);
-	font-size: 72px;
+	color: white;
+	font-size: 50px;
 	font-weight: 700;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: calc(1em + 8px);
@@ -57,8 +59,8 @@
 }
 
 .subheader {
-	color: rgb(23, 73, 77);
-	font-size: 22px;
+	color: white;
+	font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 30px;
 }

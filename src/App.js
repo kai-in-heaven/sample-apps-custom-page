@@ -18,22 +18,11 @@ function App() {
 						<Col>
 							<div className={styles.heroText}>
 								<h1 className={styles.header}>
-									Sample apps <br />
-									and Tutorials
+									Support Organization Resources
 								</h1>
 								<p className={styles.subheader}>
-									Learn from and build off of sample apps and tutorials provided directly from the
-									Zendesk team! View our sample apps in Github where you can clone the repositories
-									and expand on the examples, or use our tutorials as a starting point for building
-									your own apps.
+									This page provides with you with access to a number of resources related to the Support Organization(s) that you are part of.
 								</p>
-							</div>
-						</Col>
-						<Col>
-							<div className={styles.heroImg}>
-								<div className={styles.image}>
-									<img src="https://i.ibb.co/THMVSPp/hero.jpg" alt="" className={styles.img} />
-								</div>
 							</div>
 						</Col>
 					</Row>
